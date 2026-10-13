@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Kenya Marine Supplies Ltd</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #eef3f9;
+            color: #333333;
+            line-height: 1.7;
+        }
+
+        /* Header styling */
+        header {
+            background-color: #073766;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+            letter-spacing: 1px;
+        }
+
+        header p {
+            font-size: 19px;
+            margin-top: 15px;
+        }
+
+        /* Navigation bar */
+        nav {
+            background-color: #07577b;
+            padding: 18px;
+            text-align: center;
+        }
+
+        nav a {
+            display: inline-block;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+            margin: 5px 20px;
+        }
+
+        nav a:hover {
+            color: #b8e9ff;
+            text-decoration: underline;
+        }
+
+        /* Main content */
+        main {
+            max-width: 1200px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        section {
+            background-color: white;
+            padding: 30px;
+            margin-bottom: 30px;
+            border-radius: 14px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        }
+
+        h2 {
+            color: #073766;
+            border-bottom: 3px solid #299bc0;
+            padding-bottom: 12px;
+            margin-top: 0;
+        }
+
+        h3 {
+            color: #07577b;
+        }
+
+        .intro {
+            text-align: center;
+        }
+
+        .intro h2 {
+            border-bottom: none;
+            font-size: 30px;
+        }
+
+        /* Image styling */
+        .section-image {
+            display: block;
+            width: 100%;
+            max-width: 750px;
+            max-height: 430px;
+            object-fit: cover;
+            margin: 25px auto 0;
+            border-radius: 12px;
+        }
+
+        /* Image gallery */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 25px;
+        }
+
+        .gallery-card {
+            background-color: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        }
+
+        .gallery-card img {
+            width: 100%;
+            height: 260px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .gallery-text {
+            padding: 20px;
+        }
+
+        .gallery-text h3 {
+            margin-top: 0;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #073766;
+            color: white;
+            text-align: center;
+            padding: 25px 15px;
+            margin-top: 40px;
+        }
+
+        footer a {
+            color: #b8e9ff;
+        }
+
+        /* Mobile phone and tablet styling */
+        @media (max-width: 650px) {
+            header h1 {
+                font-size: 27px;
+            }
+
+            nav a {
+                margin: 5px 10px;
+                font-size: 16px;
+            }
+
+            section {
+                padding: 20px;
+            }
+
+            .gallery {
+                grid-template-columns: 1fr;
+            }
+
+            .gallery-card img {
+                height: 230px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Company header -->
+    <header>
+        <h1>KENYA MARINE SUPPLIES</h1>
+        <p>Reliable Solutions for Maritime Operations</p>
+    </header>
+
+    <!-- Website navigation -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <main>
+
+        <!-- Introduction -->
+        <section class="intro">
+            <h2>Welcome to Kenya Marine Supplies Ltd</h2>
+
+            <p>
+                Kenya Marine Supplies Ltd is dedicated to supporting
+                maritime operations by providing marine equipment,
+                transportation information and essential supplies.
+                We aim to contribute to safe, reliable and efficient
+                marine activities.
+            </p>
+
+            <img
+                src="marine-equipment.jpg.jpeg"
+                alt="Marine equipment and supplies"
+                class="section-image">
+        </section>
+
+        <!-- Company history -->
+        <section>
+            <h2>History of Kenya Marine Supplies</h2>
+
+            <p>
+                Kenya Marine Supplies Ltd focuses on providing marine
+                equipment and supplies to support maritime activities.
+                These supplies help ships, crews and other vessels
+                operate safely and efficiently.
+            </p>
+
+            <p>
+                The company's website provides information about marine
+                transportation, cargo shipping, port operations and
+                marine equipment used in the maritime industry.
+            </p>
+
+            <img
+                src="port-operations.jpg.jpeg"
+                alt="Marine port operations"
+                class="section-image">
+        </section>
+
+        <!-- Marine services and activities -->
+        <section>
+            <h2>Our Marine Activities</h2>
+
+            <div class="gallery">
+
+                <div class="gallery-card">
+                    <img
+                        src="marine-transport.jpg.jpeg"
+                        alt="Marine transportation by ship">
+
+                    <div class="gallery-text">
+                        <h3>1. Marine Transportation</h3>
+
+                        <p>
+                            Marine transportation involves moving
+                            goods and passengers from one location
+                            to another using ships and other water
+                            vessels. It supports trade and travel.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="gallery-card">
+                    <img
+                        src="cargo-ship.jpg.jpeg"
+                        alt="Cargo ship transporting containers">
+
+                    <div class="gallery-text">
+                        <h3>2. Cargo Ships and Shipping</h3>
+
+                        <p>
+                            Cargo ships transport goods such as
+                            containers, machinery, food and other
+                            materials across the sea. They play an
+                            important role in international trade.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="gallery-card">
+                    <img
+                        src="port-operations.jpg.jpeg"
+                        alt="Cargo handling at a marine port">
+
+                    <div class="gallery-text">
+                        <h3>3. Port Operations</h3>
+
+                        <p>
+                            Port operations include loading and
+                            unloading cargo, handling containers
+                            and coordinating activities that help
+                            ships enter and leave ports efficiently.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="gallery-card">
+                    <img
+                        src="marine-equipment.jpg.jpeg"
+                        alt="Marine equipment used on vessels">
+
+                    <div class="gallery-text">
+                        <h3>4. Marine Equipment</h3>
+
+                        <p>
+                            Marine equipment includes safety gear,
+                            ropes, navigation tools and other
+                            supplies used to support ships and
+                            maritime operations.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Why choose us -->
+        <section>
+            <h2>Our Commitment</h2>
+
+            <p>
+                We recognize the importance of maritime safety,
+                dependable equipment and efficient port operations.
+                Our goal is to provide useful information about
+                marine supplies and the services that support
+                the maritime industry.
+            </p>
+
+            <p>
+                Explore our Products page to learn more about
+                marine equipment, or visit our Contact page
+                for company contact information.
+            </p>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>
+            <strong>Kenya Marine Supplies Ltd</strong>
+        </p>
+
+        <p>Reliable Solutions for Maritime Operations</p>
+
+        <p>
+            <a href="products.html">Products</a> |
+            <a href="contact.html">Contact Us</a>
+        </p>
+
+        <p>
+            &copy; 2026 Kenya Marine Supplies Ltd.
+            All rights reserved.
+        </p>
+    </footer>
+
+</body>
+</html>
